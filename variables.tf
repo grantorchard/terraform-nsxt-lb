@@ -1,4 +1,4 @@
 variable "nsx_group_path" {
-	type = list(string)
+	type = string
 	description = "Path of the security group containing the VMs."
 }
